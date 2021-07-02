@@ -1,0 +1,52 @@
+/* CSS RESET */
+
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    background : url('./background.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    background-color: rgba(0,0,0,0.3);
+    margin: 1vw;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 225, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.btn:hover{
+    color : yellow;
+    border-color: yellow;
+    background-color: rgb(250, 246, 0,0.4);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 10vmin;
+    margin-top: 15vw;
+}
+
+.drum-item{
+    display: flex;
+    flex-direction: column;
+    margin : 1%;
+    border: 2px solid lightgrey;
+}
+
+.key{
+    color : white;
+    font-size: 6vw;
+    margin : 2vw;
+}
+
+.title{
+    color : lightskyblue;
+    text-align: center;
+    font-size: 2vw;
+}
